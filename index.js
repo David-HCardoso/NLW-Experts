@@ -1,93 +1,92 @@
 // array
 const perguntas = [
     {
-        // Objeto
-        pergunta: "O que significa a sigla HTML?",
+        pergunta: "Qual é o objetivo principal da psicologia hospitalar?",
         respostas: [
-            "Hyper Text Markup Language",
-            "High-Level Text Management Language",
-            "Hyperlink and Text Markup Language",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é a função do operador '===' em JavaScript?",
-        respostas: [
-            "Comparação estrita",
-            "Atribuição",
-            "Comparação solta",
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Como você declara uma variável em JavaScript?",
-        respostas: [
-            "let myVar = 5;",
-            "const myVar = 5;",
-            "var myVar = 5;",
+            "Ajudar os médicos a prescrever tratamentos",
+            "Fornecer suporte psicológico aos pacientes e suas famílias",
+            "Administrar os recursos financeiros do hospital",
         ],
         correta: 1
     },
     {
-        pergunta: "Qual método é usado para imprimir algo no console em JavaScript?",
+        pergunta: "Quais são algumas das áreas de atuação da psicologia hospitalar?",
         respostas: [
-            "console.log()",
-            "print()",
-            "log.console()",
+            "Aconselhamento familiar, terapia de grupo, psicoterapia individual",
+            "Cirurgia, neurologia, ortopedia",
+            "Pediatria, obstetrícia, geriatria",
         ],
         correta: 0
     },
     {
-        pergunta: "O que é um array em JavaScript?",
+        pergunta: "Qual é a importância da comunicação na psicologia hospitalar?",
         respostas: [
-            "Uma estrutura de controle de fluxo",
-            "Um tipo de dado que armazena elementos",
-            "Um tipo de função",
+            "É importante apenas para os médicos se comunicarem entre si",
+            "Ajuda na compreensão das necessidades emocionais dos pacientes e na construção de um vínculo terapêutico",
+            "Não tem impacto significativo no tratamento dos pacientes",
         ],
         correta: 1
     },
     {
-        pergunta: "Qual é a finalidade do comando 'if' em JavaScript?",
+        pergunta: "Quais são alguns desafios enfrentados pelos psicólogos hospitalares?",
         respostas: [
-            "Definir uma função",
-            "Executar código condicionalmente",
-            "Declarar uma variável",
+            "Baixa demanda por serviços de saúde mental",
+            "Comunicação eficaz com equipes médicas e pacientes",
+            "Falta de treinamento em técnicas de intervenção psicológica",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "O que é o burnout do profissional de saúde?",
+        respostas: [
+            "Um tipo de infecção hospitalar",
+            "Um fenômeno que envolve esgotamento físico e emocional devido ao estresse no trabalho",
+            "Um tipo de tratamento para pacientes com queimaduras",
         ],
         correta: 1
     },
     {
-        pergunta: "Como você escreve um comentário em JavaScript?",
+        pergunta: "Quais são algumas estratégias para lidar com o estresse no ambiente hospitalar?",
         respostas: [
-            "// Este é um comentário",
-            "/* Este é um comentário */",
-            "<!-- Este é um comentário -->",
+            "Ignorar os sentimentos para se concentrar no trabalho",
+            "Buscar apoio social, praticar atividades de relaxamento, e cuidar da própria saúde",
+            "Trabalhar mais horas para se distrair do estresse",
         ],
-        correta: 0
+        correta: 1
     },
     {
-        pergunta: "O que faz o método 'toUpperCase()' em uma string?",
+        pergunta: "O que é a humanização da assistência hospitalar?",
         respostas: [
-            "Converte a string para maiúsculas",
-            "Converte a string para minúsculas",
-            "Remove espaços em branco",
+            "Um procedimento cirúrgico avançado",
+            "Um programa de treinamento para médicos",
+            "Uma abordagem que enfatiza o respeito, a empatia e a dignidade no cuidado ao paciente",
         ],
-        correta: 0
+        correta: 2
     },
     {
-        pergunta: "O que é o DOM em JavaScript?",
+        pergunta: "O que significa a sigla SUS?",
         respostas: [
-            "Document Object Model - uma representação da estrutura de uma página HTML",
-            "Dynamic Object Management - uma técnica de gerenciamento de objetos",
-            "Data Output Model - um modelo de saída de dados",
+            "Sistema Universal de Saúde",
+            "Sistema Único de Saúde",
+            "Serviço Universal de Saúde",
         ],
-        correta: 0
+        correta: 1
     },
     {
-        pergunta: "Qual é o operador lógico 'OU' em JavaScript?",
+        pergunta: "Qual é o papel do psicólogo hospitalar na equipe multidisciplinar?",
         respostas: [
-            "&&",
-            "||",
-            "!",
+            "Fornecer diagnósticos médicos",
+            "Coordenar o fluxo de pacientes",
+            "Oferecer suporte emocional e psicológico aos pacientes, familiares e equipe médica",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Como a psicologia hospitalar pode contribuir para a recuperação dos pacientes?",
+        respostas: [
+            "Fornecendo medicação psiquiátrica",
+            "Ajudando os pacientes a entender a doença e seu impacto emocional, e fornecendo estratégias de enfrentamento",
+            "Realizando cirurgias psicológicas",
         ],
         correta: 1
     },
