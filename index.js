@@ -1,96 +1,97 @@
 // array
 const perguntas = [
     {
-        pergunta: "Qual é o objetivo principal da psicologia hospitalar?",
+        pergunta: "Qual é a capital do Brasil?",
         respostas: [
-            "Ajudar os médicos a prescrever tratamentos",
-            "Fornecer suporte psicológico aos pacientes e suas famílias",
-            "Administrar os recursos financeiros do hospital",
+            "Rio de Janeiro",
+            "Brasília",
+            "São Paulo",
         ],
         correta: 1
     },
     {
-        pergunta: "Quais são algumas das áreas de atuação da psicologia hospitalar?",
+        pergunta: "Quem escreveu 'Dom Quixote'?",
         respostas: [
-            "Aconselhamento familiar, terapia de grupo, psicoterapia individual",
-            "Cirurgia, neurologia, ortopedia",
-            "Pediatria, obstetrícia, geriatria",
+            "Miguel de Cervantes",
+            "William Shakespeare",
+            "Friedrich Nietzsche",
         ],
         correta: 0
     },
     {
-        pergunta: "Qual é a importância da comunicação na psicologia hospitalar?",
+        pergunta: "Qual é o maior oceano do mundo?",
         respostas: [
-            "É importante apenas para os médicos se comunicarem entre si",
-            "Ajuda na compreensão das necessidades emocionais dos pacientes e na construção de um vínculo terapêutico",
-            "Não tem impacto significativo no tratamento dos pacientes",
+            "Oceano Índico",
+            "Oceano Pacífico",
+            "Oceano Atlântico",
         ],
         correta: 1
     },
     {
-        pergunta: "Quais são alguns desafios enfrentados pelos psicólogos hospitalares?",
+        pergunta: "Quem foi o primeiro presidente dos Estados Unidos?",
         respostas: [
-            "Baixa demanda por serviços de saúde mental",
-            "Comunicação eficaz com equipes médicas e pacientes",
-            "Falta de treinamento em técnicas de intervenção psicológica",
+            "Thomas Jefferson",
+            "George Washington",
+            "Abraham Lincoln",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o símbolo químico do ouro?",
+        respostas: [
+            "O",
+            "Au",
+            "Ag",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Quem pintou a 'Mona Lisa'?",
+        respostas: [
+            "Leonardo da Vinci",
+            "Pablo Picasso",
+            "Vincent van Gogh",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Qual é o país com a maior população do mundo?",
+        respostas: [
+            "Índia",
+            "China",
+            "Estados Unidos",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é a montanha mais alta do mundo?",
+        respostas: [
+            "Monte Everest",
+            "Monte Kilimanjaro",
+            "Monte Fuji",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem escreveu 'Romeu e Julieta'?",
+        respostas: [
+            "William Shakespeare",
+            "Charles Dickens",
+            "Jane Austen",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Qual é a capital da França?",
+        respostas: [
+            "Londres",
+            "Roma",
+            "Paris",
         ],
         correta: 2
-    },
-    {
-        pergunta: "O que é o burnout do profissional de saúde?",
-        respostas: [
-            "Um tipo de infecção hospitalar",
-            "Um fenômeno que envolve esgotamento físico e emocional devido ao estresse no trabalho",
-            "Um tipo de tratamento para pacientes com queimaduras",
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "Quais são algumas estratégias para lidar com o estresse no ambiente hospitalar?",
-        respostas: [
-            "Ignorar os sentimentos para se concentrar no trabalho",
-            "Buscar apoio social, praticar atividades de relaxamento, e cuidar da própria saúde",
-            "Trabalhar mais horas para se distrair do estresse",
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "O que é a humanização da assistência hospitalar?",
-        respostas: [
-            "Um procedimento cirúrgico avançado",
-            "Um programa de treinamento para médicos",
-            "Uma abordagem que enfatiza o respeito, a empatia e a dignidade no cuidado ao paciente",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "O que significa a sigla SUS?",
-        respostas: [
-            "Sistema Universal de Saúde",
-            "Sistema Único de Saúde",
-            "Serviço Universal de Saúde",
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "Qual é o papel do psicólogo hospitalar na equipe multidisciplinar?",
-        respostas: [
-            "Fornecer diagnósticos médicos",
-            "Coordenar o fluxo de pacientes",
-            "Oferecer suporte emocional e psicológico aos pacientes, familiares e equipe médica",
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Como a psicologia hospitalar pode contribuir para a recuperação dos pacientes?",
-        respostas: [
-            "Fornecendo medicação psiquiátrica",
-            "Ajudando os pacientes a entender a doença e seu impacto emocional, e fornecendo estratégias de enfrentamento",
-            "Realizando cirurgias psicológicas",
-        ],
-        correta: 1
     },
 ];
+
 // Pega o documento para usar o documento
 const quiz = document.querySelector('#quiz')
 // Função que busca o elemento
